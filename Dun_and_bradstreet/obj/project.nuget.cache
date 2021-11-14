@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "k86G1Rmu7LHtdqfd8Cgsco8yOyXKzbTTq9XD12e5E5nrAeCYn/dR50DzT6uyQZQcEZ6QSsbLQ+lgw2NRSq+Srw==",
+  "success": true,
+  "projectFilePath": "/Users/dudubar/projects/Dun_and_bradstreet/Dun_and_bradstreet/Dun_and_bradstreet.csproj",
+  "expectedPackageFiles": [
+    "/Users/dudubar/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.12/microsoft.aspnetcore.jsonpatch.5.0.12.nupkg.sha512",
+    "/Users/dudubar/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.12/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.12.nupkg.sha512",
+    "/Users/dudubar/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/dudubar/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/dudubar/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

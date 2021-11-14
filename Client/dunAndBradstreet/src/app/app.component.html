@@ -1,0 +1,19 @@
+<!-- main app container -->
+<div class="card text-center m-3">
+  <h3 class="card-header">Dun and Bradstreet Test</h3>
+  <div>
+    <div>Search bar</div>
+    <div>
+      <input type="text" (keyup)="onKey($event)"/><input type="button" value="Search" (click)="SearchServer()"/><input style="margin-left: 5px;" type="text" [(ngModel)]="searchQuery" placeholder="Find"/>
+
+    </div>
+    <div>
+    </div>
+  </div>
+  <div class="card-body text-center">
+      <div *ngFor="let item of pageOfItems"><a href={{item.firstURL}} innerHTML="{{ item.text | highlight : searchQuery}}"></a></div>
+  </div>
+  <div class="card-footer pb-0 pt-3">
+      <jw-pagination [items]="items" (changePage)="onChangePage($event)"></jw-pagination>
+  </div>
+</div>
